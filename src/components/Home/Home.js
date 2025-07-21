@@ -1,8 +1,35 @@
 import React from 'react'
 import "./Home.css"
 import man from "../../assets/man.png"
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 // import {TypingEffect} from 'react-typing-effect'
 function Home() {
+
+  useGSAP(()=>{
+    let ls1 = gsap.timeline()
+    ls1.from(".line1",{
+      y:80,
+      duration:1,
+      opacity:0
+    })
+    ls1.from(".line2",{
+      y:80,
+      duration:1,
+      opacity:0
+    })
+    ls1.from(".line3",{
+      y:80,
+      duration:1,
+      opacity:0
+    })
+    gsap.from(".righthome img",{
+      x:200,
+      duration:1,
+      opacity:0
+    })
+  })
+
   return (
     <div id='home'>
         <div className="lefthome">
