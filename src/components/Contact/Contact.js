@@ -7,30 +7,28 @@ import gsap from 'gsap'
 function Contact() {
 
   useGSAP(()=>{
-    gsap.from(".leftcontact",{
+    gsap.from(".leftcontact img",{
       x:-100,
       duration:1,
       opacity:0,
       stagger:1,
       scrollTrigger:{
-        trigger:".leftcontact",
+        trigger:".leftcontact img",
         scroll:"body",
         scrub:2,
-        markers:true,
         start: "top 60%",
         end:"top 30%"
       }
     })
-    gsap.from(".rightcontact",{
+    gsap.from(".rightcontact form",{
       x:100,
       duration:1,
       opacity:0,
       stagger:1,
       scrollTrigger:{
-        trigger:".rightcontact",
+        trigger:".rightcontact form",
         scroll:"body",
         scrub:2,
-        markers:true,
         start: "top 60%",
         end:"top 30%"
       }

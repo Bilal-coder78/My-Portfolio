@@ -17,7 +17,6 @@ function Project() {
         trigger:".para",
         scroll:"body",
         scrub:2,
-        markers:true,
         start: "top 80%",
         end:"top 30%"
       }
@@ -31,7 +30,6 @@ function Project() {
         trigger:".slider",
         scroll:"body",
         scrub:2,
-        markers:true,
         start: "top 80%",
         end:"top 30%"
       }

@@ -18,7 +18,6 @@ function About() {
         trigger:".circle",
         scroll:"body",
         scrub:2,
-        markers:true,
         start: "top 60%",
         end:"top 30%"
       }
@@ -32,7 +31,6 @@ function About() {
         trigger:".line",
         scroll:"body",
         scrub:2,
-        markers:true,
         start: "top 60%",
         end:"top 30%"
       }
@@ -46,7 +44,6 @@ function About() {
         trigger:".aboutdetails h1",
         scroll:"body",
         scrub:2,
-        markers:true,
         start: "top 60%",
         end:"top 30%"
       }
@@ -60,7 +57,6 @@ function About() {
         trigger:".aboutdetails ul",
         scroll:"body",
         scrub:2,
-        markers:true,
         start: "top 60%",
         end:"top 30%"
       }
@@ -74,7 +70,6 @@ function About() {
         trigger:".rightabout",
         scroll:"body",
         scrub:2,
-        markers:true,
         start: "top 60%",
         end:"top 30%"
       }
