@@ -1,8 +1,8 @@
 import "./About.css"
 import Card from '../Card/Card'
-import mern from '../../assets/mern.png'
 import java from '../../assets/JS.webp'
 import react from '../../assets/react.webp'
+import html from "../../assets/Htmlcss.jpeg"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/all"
@@ -131,7 +131,7 @@ function About() {
            </div>
         </div>
         <div className="rightabout">
-          <Card title={"MERN STACK"} image={mern}/>
+          <Card title={"HTML CSS"} image={html}/>
           <Card title={"JAVASCRIPT"} image={java}/>
           <Card title={"REACT JS"} image={react}/>
         </div>
