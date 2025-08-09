@@ -1,6 +1,10 @@
 import React from 'react'
 import Card from '../Card/Card'
 import va from '../../assets/va.png'
+import chatgpt from "../../assets/chatgpt.jpg"
+import travel from "../../assets/travel.webp"
+import restaurant from "../../assets/restaurant.webp"
+import todo from "../../assets/todo.webp"
 import './Project.css'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -40,10 +44,10 @@ function Project() {
         <h1 className='para'>2+ Years experienced in projects</h1>
         <div className="slider">
             <Card title={"Ai chatbot"} image={va}/>
-            <Card title={"Ai chatbot"} image={va}/>
-            <Card title={"Ai chatbot"} image={va}/>
-            <Card title={"Ai chatbot"} image={va}/>
-            <Card title={"Ai chatbot"} image={va}/>
+            <Card title={"Chatgpt"} image={chatgpt}/>
+            <Card title={"Todo-list App"} image={todo}/>
+            <Card title={"Restaurant web"} image={restaurant}/>
+            <Card title={"Travel Web"} image={travel}/>
         </div>
     </div>
   )
